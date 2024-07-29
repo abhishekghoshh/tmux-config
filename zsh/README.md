@@ -60,6 +60,18 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ```
 
+## Some cli-tools for terminal
+- **important**
+    - fzf
+    - zoxide
+- **entertainment**
+    - cmatrix
+    - fortune
+    - figlet
+    - cowsay
+    - neofetch
+    - fortune | cowsay
+
 
 
 ## Important links and resources
