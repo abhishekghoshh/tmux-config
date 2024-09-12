@@ -1,6 +1,8 @@
 #!/bin/bash
+
 # install and setup all the configs to the right folder
-apt-get update && apt-get upgrade -y
+echo "Executing installer.sh file"
+
 apt-get install -y gcc lua5.4 neovim
 mkdir -p ~/workspace
 cd ~/.config
