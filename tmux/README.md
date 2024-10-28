@@ -59,6 +59,8 @@ tmux                    ->      to open tmux
 <leader> z              ->      to toogle full screen of a pane
 
 <leader> c              ->      for creating a new window
+<leader> p              ->      for going to the previous window
+<leader> n              ->      for going to the next window
 :rename-window  <name>  ->      for renaming the window
 <leader> w              ->      we can see the list of windows in a session
 <leader> &              ->      to kill the current window
