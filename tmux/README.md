@@ -46,6 +46,7 @@ All the plugins are installed to ~/.tmux/plugins/ so alternatively you can find 
 
 ### Some tmux commands
 ```
+ctrl + s                ->      the leader key
 tmux                    ->      to open tmux
 <leader> :              ->      for opening a command mode in tmux
 
@@ -68,7 +69,8 @@ tmux                    ->      to open tmux
 <leader> d              ->      for detaching the current session
 tmux list-sessions      ->      list all the sessions
 tmux ls                 ->      list all the sessions
-tmux detach             ->      attach to the last active session
+tmux attach             ->      attach to the last active session
+tmux detach             ->      detach from the current session
 tmux                    ->      open a new session
 <leader> s              ->      we can see all the sessions in tmux
 :rename-session         ->      rename a session
