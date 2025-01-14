@@ -1,0 +1,55 @@
+site_name: dotfiles
+site_url: https://abhishekghoshh.github.io/dotfiles/
+
+nav:
+  - Home: index.md
+  - git:
+    - introduction: git/introduction.md
+    - configurations: git/configurations.md
+    - cloning: git/cloning.md
+    - initialization: git/intialization.md
+    - modifying files: git/modifying_files.md
+    - project status: git/project_status.md
+    - logs: git/logs.md
+    - commits: git/commits.md
+    - branching: git/branching.md
+    - pull and synchronize: git/pull_and_synchronize.md
+    - push: git/push.md
+    - rebase: git/rebase.md
+    - tagging: git/tagging.md
+    - advanced: git/advanced.md
+  - linux:
+    - commands: linux/commands.md
+  - terminal shortcuts:
+    - command line: shortcuts/shortcuts.md
+  - tmux: tmux.md
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
+
+
+copyright: |
+  &copy; 2025 <a href="https://github.com/james-willett"  target="_blank" rel="noopener">Abhishek Ghosh</a>

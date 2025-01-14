@@ -6,7 +6,7 @@
 git
 zsh(oh-my-zsh + powerlevel10k + plugins)
 fzf bat 
-lazygit lazydocker
+lazygit tig lazydocker
 nvim tmux 
 iterm2 alacritty
 lua, gcc, go, rust, java, scala, node, npm
@@ -32,4 +32,14 @@ docker run --rm -it --name sandbox ubuntu bash -c "apt-get update && apt-get upg
   mkdir -p ~/.config/dotfiles &&
   git clone https://github.com/abhishekghoshh/dotfiles ~/.config/dotfiles &&
   cd ~/.config/dotfiles && chmod +x installer.sh && ./installer.sh"
+```
+
+
+## Documentation using mkdocs
+```
+pip install --upgrade pip
+pip install mkdocs mkdocs-material mkdocs-rtd-dropdown pillow cairosvg
+
+mkdocs new .
+mkdocs serve
 ```
