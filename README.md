@@ -37,9 +37,14 @@ docker run --rm -it --name sandbox ubuntu bash -c "apt-get update && apt-get upg
 
 ## Documentation using mkdocs
 ```
-pip install --upgrade pip
-pip install mkdocs mkdocs-material mkdocs-rtd-dropdown pillow cairosvg
+# install python, pip, libcairo2-dev or cairo
 
-mkdocs new .
+pip install --upgrade pip
+pip install -r /path/to/requirements.txt
+pip install mkdocs mkdocs-material mkdocs-rtd-dropdown pillow cairosvg
+pip3 freeze > requirements.txt
+
+# to create the mkdocs repo for the current directory
+mkdocs new . 
 mkdocs serve
 ```

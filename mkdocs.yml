@@ -20,9 +20,15 @@ nav:
     - advanced: git/advanced.md
   - linux:
     - commands: linux/commands.md
-  - terminal shortcuts:
-    - command line: shortcuts/shortcuts.md
+  - shortcuts:
+    - typing: shortcuts/typing.md
+    - command line: shortcuts/command-line.md
   - tmux: tmux.md
+  - nvim:
+    - vim: nvim/vim.md
+  - other links:
+    - typing: links/typing.md
+    - git: links/git.md
 theme:
   name: material
   features:
@@ -50,6 +56,36 @@ theme:
       primary: teal
       accent: lime
 
+plugins:
+  - social
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/abhishekghoshh
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/abhishek_ghoshh
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/abhishek-ghosh-220679132/
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
 
 copyright: |
-  &copy; 2025 <a href="https://github.com/james-willett"  target="_blank" rel="noopener">Abhishek Ghosh</a>
+  &copy; 2025 <a href="https://github.com/abhishekghoshh"  target="_blank" rel="noopener">Abhishek Ghosh</a>

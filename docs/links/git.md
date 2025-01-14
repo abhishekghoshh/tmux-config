@@ -13,7 +13,6 @@
 
 
 ## git cheetsheets
-- [Git From Scratch](./pdf/git_from_scratch.pdf)
 - [Learn Git Fundamentals - A Handbook on Day-to-Day Development Tasks](https://www.freecodecamp.org/news/learn-git-basics/)
 - [How to Use Git and GitHub - a Guide for Beginners and Experienced Developers](https://www.freecodecamp.org/news/guide-to-git-github-for-beginners-and-experienced-devs/)
 
@@ -30,8 +29,8 @@
 #### Intermediate 
 - [Git Stash In 5 Minutes](https://www.youtube.com/watch?v=lH3ZkwbVp5E)
 - **Git MERGE vs REBASE**
-	- [Git MERGE vs REBASE: Everything You Need to Know](https://www.youtube.com/watch?v=0chZFIZLR_0)
-	- [Git MERGE vs REBASE](https://www.youtube.com/watch?v=CRlGDDprdOQ)
+    - [Git MERGE vs REBASE: Everything You Need to Know](https://www.youtube.com/watch?v=0chZFIZLR_0)
+    - [Git MERGE vs REBASE](https://www.youtube.com/watch?v=CRlGDDprdOQ)
 - [Difference between git PULL and git FETCH](https://www.youtube.com/watch?v=Mdo7hvlUJ-U)
 - [Git](https://www.youtube.com/playlist?list=PLfU9XN7w4tFwKwh_xPSQ_X1-hROQEpHnM)
 - [Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)
