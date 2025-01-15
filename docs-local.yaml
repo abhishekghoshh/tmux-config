@@ -1,11 +1,14 @@
 version: '3'
 
 services:
-  mkdocs:
+  dotfiles:
+    container_name: dotfiles
+    image: dotfiles:latest
     build:
-      context: ./docs  # Set the build context to the docs directory
+      context: .  # Set the build context to the docs directory
     ports:
       - "8000:8000"
+    # volume mount so that it will get the local changes automatically
     volumes:
-      - ./:/docs  # Mounts the local docs directory to /docs in the container
-    command: mkdocs serve -a 0.0.0.0:8000
+      - nvim:/root/.config/nvim
+      - ./:/home/abhishek/workspace/dotfiles  # Mounts the local docs directory to /docs in the container
