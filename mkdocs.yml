@@ -29,6 +29,8 @@ nav:
   - other links:
     - typing: links/typing.md
     - git: links/git.md
+
+
 theme:
   name: material
   features:

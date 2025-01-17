@@ -3,7 +3,7 @@ version: '3'
 services:
   dotfiles:
     container_name: dotfiles
-    image: dotfiles:latest
+    image: abhishek1009/dotfiles:latest
     build:
       context: .  # Set the build context to the docs directory
     ports:
