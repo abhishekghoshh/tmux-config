@@ -26,10 +26,10 @@ RUN python3.13 -m venv /venv
 
 
 # Create the workspace directory
-RUN mkdir -p /home/abhishek/workspace/zig-helper
+RUN mkdir -p /home/abhishek/workspace/dotfiles
 
 # Set the working directory to workspace
-WORKDIR /home/abhishek/workspace/zig-helper
+WORKDIR /home/abhishek/workspace/dotfiles
 
 # Copy requirements.txt
 COPY requirements.txt requirements.txt 
