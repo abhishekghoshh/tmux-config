@@ -3,12 +3,16 @@
 
 ## Need to install 
 ```
-git
+git (gh, gh-dash)
 zsh(oh-my-zsh + powerlevel10k + plugins)
+zoxide
 fzf bat 
 lazygit tig lazydocker
 nvim tmux 
 iterm2 alacritty
+posting (a cmd version of postman)
+yazi (file reader)
+rainfrog(db tool)
 lua, gcc, go, rust, java, scala, node, npm
 ```
 
@@ -47,4 +51,24 @@ pip3 freeze > requirements.txt
 # to create the mkdocs repo for the current directory
 mkdocs new . 
 mkdocs serve
+```
+
+ **Softwares and their open source replacements**
+```
+Notion -> Appflowy https://github.com/AppFlowy-IO/AppFlowy
+Microsoft Office -> LibreOffice https://github.com/LibreOffice
+
+AirTable -> Nocodb https://github.com/nocodb/nocodb
+
+Salesforce -> ERPNext https://github.com/frappe/erpnext
+Jira -> Plane https://github.com/makeplane/plane
+Slack -> Mattermost https://github.com/mattermost/mattermost
+Zoom -> Jitsi https://github.com/jitsi
+
+Firebase -> Convex, Appwrite, Supabase, PocketBase
+Firebase -> Instant https://github.com/instantdb/instant
+
+Vercel -> Coolify https://github.com/coollabsio/coolify
+Hereko -> Dokku https://github.com/dokku/dokku
+
 ```

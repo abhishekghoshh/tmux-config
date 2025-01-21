@@ -10,5 +10,5 @@ services:
       - "8000:8000"
     # volume mount so that it will get the local changes automatically
     volumes:
-      - nvim:/root/.config/nvim
+      # - ./nvim:/root/.config/nvim
       - ./:/home/abhishek/workspace/dotfiles  # Mounts the local docs directory to /docs in the container

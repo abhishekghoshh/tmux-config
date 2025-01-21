@@ -14,32 +14,38 @@ RUN apt-get update && \
     apt-get install -y git gcc lua5.4 neovim && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
+
+# Copy your Neovim configuration files from the local directory to the container
+COPY nvim /root/.config/nvim
+
 # Set environment variables for MkDocs
 ENV MKDOCS_VERSION=1.6.1
 
 # Create a virtual environment
 RUN python3.13 -m venv /venv
 
-# Add the virtual environment's bin directory to PATH
-ENV PATH="/venv/bin:$PATH"
-
-# Install MkDocs and any other required Python packages in the virtual environment
-RUN pip install --no-cache-dir mkdocs==${MKDOCS_VERSION} mkdocs mkdocs-material pillow cairosvg "mkdocs-material[imaging]"
-
-# Copy your Neovim configuration files from the local directory to the container
-COPY nvim /root/.config/nvim
 
 # Create the workspace directory
-RUN mkdir -p /home/abhishek/workspace/dotfiles
+RUN mkdir -p /home/abhishek/workspace/zig-helper
 
 # Set the working directory to workspace
-WORKDIR /home/abhishek/workspace/dotfiles
+WORKDIR /home/abhishek/workspace/zig-helper
 
-# Copy the contents of the current directory to /home/abhishek/workspace/dotfiles
+# Copy requirements.txt
+COPY requirements.txt requirements.txt 
+
+# RUN source /venv/bin/activate
+
+# Install MkDocs and any other required Python packages in the virtual environment
+# RUN ./venv/bin/pip install --no-cache-dir mkdocs==${MKDOCS_VERSION} mkdocs mkdocs-material pillow cairosvg "mkdocs-material[imaging]"
+RUN /venv/bin/pip install -r requirements.txt
+
+
+# Copy the contents of the current directory to /home/abhishek/workspace/infrastructure-helper
 COPY . .
 
 # Expose the port that MkDocs will run on
 EXPOSE 8000
 
 # Command to run when starting the container
-CMD ["mkdocs", "serve", "-a", "0.0.0.0:8000"]
+CMD ["/venv/bin/mkdocs", "serve", "-a", "0.0.0.0:8000"]
