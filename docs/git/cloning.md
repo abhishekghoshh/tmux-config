@@ -15,7 +15,7 @@ using ssh link
 git clone git@github.com:user_name/repo_name.git
 ```
 
-Clone only a specific branch<
+Clone only a specific branch
 ```
 git clone -branch <branch_name> <repo_url>
 ```

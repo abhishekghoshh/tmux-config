@@ -18,17 +18,23 @@ nav:
     - rebase: git/rebase.md
     - tagging: git/tagging.md
     - advanced: git/advanced.md
+    - links: git/links.md
   - linux:
+    - introduction: linux/introduction.md
     - commands: linux/commands.md
+    - others: linux/others.md
+    - links: linux/links.md
   - shortcuts:
     - typing: shortcuts/typing.md
     - command line: shortcuts/command-line.md
-  - tmux: tmux.md
+    - shell: shortcuts/shell.md
+    - chrome: shortcuts/chrome.md 
+    - iterm: shortcuts/iterm.md 
+    - tmux: shortcuts/tmux.md
   - nvim:
+    - introduction: nvim/introduction.md
     - vim: nvim/vim.md
-  - other links:
-    - typing: links/typing.md
-    - git: links/git.md
+
 
 theme:
   name: material

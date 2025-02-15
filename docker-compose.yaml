@@ -7,8 +7,8 @@ services:
     build:
       context: .  # Set the build context to the docs directory
     ports:
-      - "8000:8000"
+      - "8001:8000"
     # volume mount so that it will get the local changes automatically
     volumes:
       # - ./nvim:/root/.config/nvim
-      - ./:/home/abhishek/workspace/dotfiles  # Mounts the local docs directory to /docs in the container
+      - ./:/home/abhishek/workspace/dotfiles  # Mounts the local docsdirectory to /docs in the container

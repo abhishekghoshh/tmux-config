@@ -53,7 +53,7 @@ mkdocs new .
 mkdocs serve
 ```
 
- **Softwares and their open source replacements**
+## Softwares and their open source replacements
 ```
 Notion -> Appflowy https://github.com/AppFlowy-IO/AppFlowy
 Microsoft Office -> LibreOffice https://github.com/LibreOffice
@@ -71,4 +71,32 @@ Firebase -> Instant https://github.com/instantdb/instant
 Vercel -> Coolify https://github.com/coollabsio/coolify
 Hereko -> Dokku https://github.com/dokku/dokku
 
+```
+
+## Saas Platforms
+- [aiven](https://aiven.io/)
+
+
+
+## AI tools
+```
+perplexity -> https://www.perplexity.ai/
+chatGPT -> https://chatgpt.com/
+claude -> https://claude.ai/
+phind -> https://www.phind.com/
+
+aistudio by google -> https://aistudio.google.com/
+gemini -> https://gemini.google.com
+notebooklm -> https://notebooklm.google.com/
+
+gamma for presentation -> https://gamma.app/
+
+The AI Code Editor (cursor) -> https://www.cursor.com/
+
+Turn product ideas into concepts instantly with GenAI -> https://uizard.io/
+
+Napkin turns your text into visuals so sharing your ideas is quick and effective -> https://www.napkin.ai/
+
+AI Meeting Assistant -> https://otter.ai/
+Automate your meeting notes -> https://fireflies.ai/
 ```
